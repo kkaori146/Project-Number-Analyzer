@@ -51,10 +51,12 @@ window.alert('Adicione valores antes de finalizar!')
         menor = valores [pos]
     }
 
+    media = soma / tot
     res.innerHTML = ''
     res.innerHTML += `<p>Ao todo, temos ${tot} números cadastrados.</p>`
     res.innerHTML += `<p>O maior valor informado foi ${maior}.</p>`
     res.innerHTML += `<p>O menor valor informado foi ${menor}.</p>`
     res.innerHTML += `<p>Somando todos os valores temos ${soma}.</p>`
+    res.innerHTML += `<p>A média dos valores informados é ${media}.</p>`
 }
 }
